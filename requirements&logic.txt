@@ -1,0 +1,28 @@
+Project name: Tips Manager for Phonomenal
+Author: Han
+
+Goal: 
+    1. Design and implement an user interface on mobile/desktop by using HTML,
+    CSS and JavaScript.
+    2. Implement basic functionality within the Front-end side by using JavaScript.
+    3. Implement user accounts access allowing owners to login and manage the system.
+    4. Set up the database and server, save the necessary data on the server or somewhere else.
+    5. File Handling and output: provide data output as Excel file for owner.
+
+Requirements:
+    1. Interface design: allow users to manage the tips on smart mobile devices and implement other basic user-friendly functions.
+        @Calculations:
+        a) Tips calculation:1.user manually inputs data-- "clover total tips", "cash tips". Getting total tips by summing up.
+                            2.user selects active workers' working hours(3 options: morning/night shift, whole day and other), getting total working hours by sum up.
+                            3.rate per hour = total tips / total working hours.
+                            4.tips for each worker = rate per hour * working hours of each worker.
+
+        b) Gaps calculation:1.calculate total tips out(B).
+                            2.count total cash(A) in till by sum up open cash total(a), cash sale(morning/night)(b), cash tips(morning/night)(c&d).
+                            3.count total close cash(C)
+                            3.cash gap = B+C-A. Reasonable within the range of $10.
+        @Management:
+        a)Personal account&system management : 1.Create an account system with features allowing owners to sign up, login and etc..
+                            2.Allow users to set-up the features such as editing workers information(names, roles), adding/deleting workers. 
+                            
+
